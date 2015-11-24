@@ -1,0 +1,12 @@
+Model with no fieldset - works fine {{model}}
+
+<form>
+
+  <h1>Should display as a read only view</h1>
+  <div sf-schema="schema" sf-form="form" sf-model="model" sf-use-decorator="readonly"></div>
+
+  <h1>Should display as a form view</h1>
+
+  <div sf-schema="schema" sf-form="form" sf-model="model" sf-use-decorator="edit"></div>
+
+</form>
